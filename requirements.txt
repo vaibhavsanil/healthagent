@@ -1,0 +1,13 @@
+langgraph==0.6.11
+langchain==0.3.30
+langchain-openai==0.3.35
+langchain-google-genai==2.1.12
+langchain-community==0.3.31
+gradio==4.44.1
+sqlalchemy==2.0.51
+python-dotenv==1.2.1
+pydantic==2.9.2
+pydantic-settings==2.11.0
+huggingface_hub<0.26.0
+fastapi==0.112.2
+starlette==0.38.2
