@@ -90,3 +90,16 @@ A clean, premium, high-contrast dark interface featuring instant language select
 ### Doctor Portal
 A centralized dashboard for clinical review. Doctors can select pending referrals, review full patient conversation histories, and submit remote medical advice.
 ![Doctor Portal](./assets/doctor_portal.png)
+
+---
+
+## 🏁 Conclusion & Future Enhancements
+
+### Conclusion
+The Multilingual Agentic Primary Healthcare & Triage Assistant successfully demonstrates how stateful LLM orchestration (via LangGraph) can bridge the critical language barrier in primary healthcare access. By converting unstructured regional vernacular (English, Hindi, and Kannada) into structured clinical parameters and integrating a human-in-the-loop doctor dashboard, the prototype establishes an efficient, safe, and accessible digital healthcare pipeline.
+
+### Future Enhancements
+1. **Speech-to-Text Integration:** Support voice inputs in regional dialects to enhance accessibility for illiterate or semi-literate users.
+2. **Clinical RAG Integration:** Connect the triage agent to authenticated clinical knowledge bases (e.g., WHO guidelines) to dynamically verify severity and improve triage accuracy.
+3. **Broader Linguistic Coverage:** Scale the pipeline to support other major Indian regional languages (e.g., Telugu, Tamil, Marathi, and Bengali).
+4. **Security & Compliance:** Harden the database and communication layers to comply with healthcare security standards like DISHA and HIPAA.
